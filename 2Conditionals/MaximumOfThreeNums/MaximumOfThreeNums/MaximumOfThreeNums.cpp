@@ -13,13 +13,8 @@ int main()
     std::cout << "Num2: "; std::cin >> b;
     std::cout << "Num3: "; std::cin >> c;
 
-    if (a > b) {
-        if (a > c) {
-            std::cout << "Max is " << a;
-        }
-        else {
-            std::cout << "Max is " << c;
-        }
+    if (a > b && a > c) {
+     std::cout << "Max is " << a;
     }
     else {
         if (b > c) {
